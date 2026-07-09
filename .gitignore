@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Quorum run outputs (a user's private review should not be committed to this repo)
+quorum-review/
+
+# Env and secrets
+.env
+.env.*
+*.key
