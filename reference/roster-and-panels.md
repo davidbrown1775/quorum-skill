@@ -37,7 +37,14 @@ Group experts into panels so each reviews the surface it is built for. Choose pa
 - Metrics, focus, and prioritization
 - Trust, compliance, and risk (seat this whenever the user handles health, money, minors, regulated claims, or affiliate and disclosure obligations)
 
-A panel needs two or three strong seats, not a crowd. Depth beats headcount.
+## Board size
+
+Favor a robust, diverse board over a small one. In real life a large board costs capacity and calendar time. Neither binds here, so the value of more well-chosen lenses stays high.
+
+- Minimum: about twelve seats. Cover at least six seat types, with two strong seats each.
+- Comfortable range: up to about twenty, even for a solo operator or a one-person business.
+- Diversity of seat types matters more than raw count, and the quality of each seat matters more than the size of the board. Never pad the board with thin names to hit a number.
+- Scale up when the surface genuinely needs it: more revenue streams, more platforms, regulated areas. Do not scale down just because the user is solo.
 
 ## Convergence and tension
 

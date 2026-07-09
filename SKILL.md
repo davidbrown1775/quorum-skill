@@ -21,6 +21,8 @@ Run this skill as a structured loop. Do not improvise the order. Read `reference
 
 Run Quorum when the user has something real in production: a launched product, a first sale, an MVP that people use, a business that operates. Quorum audits what exists and prioritizes what is next.
 
+Confirm fit with three questions: is there a live product or service, is anyone paying for it or actively using it, and could someone use it today. Two or three yes answers means run. Mostly no means the user is at the idea stage, so say so plainly and stop.
+
 Do not run the full loop for the idea stage, where nothing real exists yet. Do not run it as a scale-optimization engine for a team past product-market fit. In either case, say so plainly, explain why Quorum is the wrong tool, and offer the closest useful alternative. State this as a boundary, not an apology.
 
 ## Operating contract (non-negotiable)
@@ -39,7 +41,7 @@ Full detail is in `reference/operating-contract.md`. The hard rules:
 ### Phase 0. Interview
 Interview the user one question at a time. Recommend an answer for each question so they can react instead of generate. Explore their files and links instead of asking when the answer is already available.
 
-Get clear on: what they have built and where it lives, their goals and their definition of success, their constraints (time, money, capacity, non-negotiables), and how far the run may go (actions and spend allowed). Capture the answers and any defaults you take. This is the only phase that requires the user in the room.
+Get clear on: what they have built and where it lives, their goals and their definition of success, their constraints (time, money, capacity, non-negotiables), and how far the run may go (actions and spend allowed). Stop interviewing once you have enough to seat the board and run the audit. Batch remaining unknowns into documented defaults rather than asking further. Capture the answers and any defaults you take. This is the only phase that requires the user in the room.
 
 ### Phase 1. Seat the board
 Ask the user to name a few experts they trust. Propose a full panel that fits their domain and goals, and let them add or cut. Every seat clears the Faithful Representation Gate in `reference/faithful-representation-gate.md`.
@@ -50,6 +52,8 @@ Reject familiar names with thin public footprints, explain why, and offer a well
 Map what the user already has against the building blocks a business needs: vision, mission, and values; ICP; roadmap; prioritized backlog; and a metrics and prioritization approach (AARRR, a North Star metric, OKRs, KPIs). Do not force every block. Record what exists, what is thin, and what is missing, and cite the real files or sources for each.
 
 If the user has a roadmap or backlog, the board's job is to review and improve it. If they do not, the board organizes or proposes the missing blocks. Meet them where they are.
+
+If the business touches health, money, minors, or regulated or affiliate claims, seat the trust and compliance panel now and give it veto over any risky recommendation.
 
 ### Phase 3. Deliberation
 Each panel reviews the relevant surface through its experts' published frameworks. For each finding, record the lens behind it, a confidence level, the goal it serves, and whether it needs a user decision. Track where independent experts converge, because convergence is the strongest signal, and track where they would disagree, because honest tension is worth surfacing.
@@ -73,6 +77,8 @@ Write outputs to disk in the structure defined in `reference/output-structure.md
 
 ## Portability
 This skill runs in Claude Code and Codex by reading this file. For any other LLM, `prompts/quorum-portable.md` is a self-contained version of the same loop. The `/quorum` command and the plugin manifest wrap this skill for Claude Code plugin users.
+
+The deliberation phase runs unattended in Claude Code and Codex, where the run can work while the user steps away. In a plain chat LLM, the same loop runs in one sitting, so keep the user engaged rather than telling them to step away.
 
 ## Integrations
 - Interview: this skill includes its own grill-style interview. Pattern credit: Matt Pocock's `grill-me`.

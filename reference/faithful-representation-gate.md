@@ -18,6 +18,14 @@ Seat a person only if they clear all of the following.
 - Someone who only "seems close" to the right lane without the corpus to back it.
 - A private operator with no public body of work, however skilled.
 
+## When no single person fits (function lenses)
+
+Some capabilities have no single dominant, well-documented figure (local search, studio operations, a niche tool). Do not fake a seat for them.
+
+- First, try to name a real person who owns that lane and clears the bar. Seat them at their true confidence.
+- If no one clears it, seat a labeled **function lens** (for example, "Local search lens") instead of a person. A function lens carries the capability's established, citable best practices, not a personality, and it is marked as a function, not a name.
+- Never dress a function up as a person, and never seat a thin name to fill a slot.
+
 ## Living versus historical
 
 - **Living or modern figures** qualify on an active site, a steady stream of articles or posts, interviews, or a published book.

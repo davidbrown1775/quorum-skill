@@ -2,7 +2,7 @@
 
 **Quorum convenes an advisory board of real, well-documented experts you choose, points them at the business you have already launched, and returns a prioritized, expert-reviewed path forward.**
 
-> Status: pre-build charter (v0). This document seeds the repo README and the PRD.
+> Status: v0.2, built and usable.
 > License: MIT. Runs on Claude Code and Codex, with a portable prompt core for any LLM.
 
 ## What Quorum is
@@ -78,6 +78,8 @@ You own the framework. Override it, retune the weights, or swap it out at any ti
 
 Quorum ships plugin-first for Claude Code and Codex. It is layered so the same thing works three ways: a portable prompt and README for any LLM, the core board and prioritization engine, and the full automated loop. A Codex user with only the prompt gets value. A Claude plugin user gets the whole loop.
 
+The unattended, step-away run is a Claude Code and Codex capability. In a plain chat LLM, the same loop runs in one sitting.
+
 ## Integrations
 
 Quorum builds in a lightweight, grill-style interview (pattern credit: Matt Pocock's grill-me). It produces a business-general PRD by default, and hands off to prd-taskmaster (MIT) when the user is a software project that wants engineering-grade specs and task breakdown.
@@ -142,8 +144,8 @@ MIT.
 ## Next steps for this repo
 
 - [x] Name chosen and checked for collisions: Quorum, command `/quorum`. Namespace any future npm installer.
-- [ ] Scaffold the public repo: `SKILL.md`, portable prompt, `README.md`, `LICENSE` (MIT), `/examples`.
-- [ ] Build the engine: interview, Faithful Representation Gate, audit, deliberation exercises, prioritized backlog and roadmap, council-weighted framework, PRD handoff.
-- [ ] Wire the operating contract: staged output, spend and permission limits, no-fabrication, checkpoint and resume.
-- [ ] Dry-run on the cases already completed, then refine.
+- [x] Scaffold the public repo: `SKILL.md`, portable prompt, `README.md`, `LICENSE` (MIT), `/examples`.
+- [x] Build the engine: interview, Faithful Representation Gate, audit, deliberation exercises, prioritized backlog and roadmap, council-weighted framework, PRD handoff.
+- [x] Wire the operating contract: staged output, spend and permission limits, no-fabrication, checkpoint and resume.
+- [x] Dry-run on a real case, then refine (v0.2).
 - [ ] Write and publish the launch article.

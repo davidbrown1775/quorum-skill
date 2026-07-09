@@ -15,7 +15,7 @@ Priority = (Goal-fit x Expert-consensus x Impact) / (Effort x Risk x Reversibili
 Each factor is scored 1 to 5.
 
 - **Goal-fit.** How directly this serves the user's stated top goals. A 5 moves the primary goal; a 1 is unrelated.
-- **Expert-consensus.** How many seated experts, weighted by representation confidence, independently support it. Broad agreement scores high.
+- **Expert-consensus.** The confidence-weighted count of seated experts who independently support it. Weight each supporter by representation confidence (High 1.0, Medium 0.6, Low 0.3), sum the weights, then map to 1 to 5. Broad agreement from high-confidence lenses scores highest.
 - **Impact.** The size of the outcome if it works.
 - **Effort.** Time, money, and coordination to do it. Higher effort lowers priority.
 - **Risk.** The chance it fails or causes harm, including trust and compliance risk.
